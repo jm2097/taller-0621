@@ -9,5 +9,5 @@ const HTML_TEMPLATE = html`
 `;
 
 export const footerComponent: Component = {
-    template: HTML_TEMPLATE
+  template: HTML_TEMPLATE
 }

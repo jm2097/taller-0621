@@ -1,6 +1,6 @@
 import { Page } from "./interfaces/page.interface";
 import { homePage } from "./pages/home.page";
-import "./style.css";
+import "./theme/style.css";
 
 function bootstrapApplication(pages: Array<Page>): void {
     for (const page of pages) {

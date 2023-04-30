@@ -1,0 +1,20 @@
+/* base */
+@import url("./base/reset.css");
+@import url("./base/variables.css");
+@import url("./base/document.css");
+@import url("./base/font.css");
+@import url("./base/heading.css");
+
+/* components */
+@import url("./components/header.css");
+@import url("./components/navbar.css");
+@import url("./components/carousel.css");
+@import url("./components/filter-form.css");
+@import url("./components/footer.css");
+@import url("./components/card.css");
+@import url("./components/button.css");
+
+/* utilities */
+@import url("./utilities/flexbox.css");
+@import url("./utilities/margin.css");
+@import url("./utilities/padding.css");
