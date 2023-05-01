@@ -1,7 +1,7 @@
 import { html } from "../helpers/html.helper";
 import { Component } from "../interfaces/component.interface";
 
-const HTML_TEMPLATE = html` 
+const template = () => html(` 
   <header>
       header works!
   
@@ -9,10 +9,10 @@ const HTML_TEMPLATE = html`
           Cambiar tema
       </button>
   </header>
-`;
+`);
 
 export const headerComponent: Component = {
-  template: HTML_TEMPLATE,
+  template: template(),
   afterViewInit() {
     const btnTheme = this.template.querySelector<HTMLButtonElement>("#btn-theme")!;
 
